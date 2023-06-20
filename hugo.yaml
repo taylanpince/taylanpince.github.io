@@ -1,6 +1,6 @@
 baseURL: 'https://taylanpince.github.io/'
 languageCode: 'en-us'
-title: 'Kaizen Musings'
+title: "Kaizen Musings - Writings by Taylan Pince, Product and Engineering Leader"
 theme: 'PaperMod'
 paginate: 5
 
@@ -41,10 +41,14 @@ outputs:
 
 params:
     env: production
-    title: "Kaizen Musings - Writings by Taylan Pince"
+    title: "Kaizen Musings"
     description: "Articles on product management, software engineering, gaming and travel"
     author: "Taylan Pince"
     images: ["avatar-wide.png"]
+    label:
+        text: "Kaizen Musings"
+        icon: "kaizen.svg"
+        iconHeight: 20
 
     defaultTheme: auto
     disableThemeToggle: false
