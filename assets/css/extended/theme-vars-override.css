@@ -1,0 +1,21 @@
+:root {
+    --theme: rgb(245, 245, 245);
+    --code-bg: rgb(245, 245, 245);
+}
+
+.profile a {
+    text-decoration: none;
+    color: #ED742E;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+.post-tags a {
+    background-color: #fff;
+}
+
+.dark {
+    --theme: rgb(29, 30, 32);
+}
