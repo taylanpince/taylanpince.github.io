@@ -1,10 +1,13 @@
 ---
-title: "A Guide to Favourite Spots in Barcelona"
+title: "A Guide to Our Favourite Spots in Barcelona"
 date: 2023-06-19T13:15:43+01:00
 draft: false
 slug: barcelona-favourite-spots-guide
 tags:
 - Travel
+cover:
+    image: "covers/travel/barcelona.jpg"
+    alt: "Aerial view of Barcelona blocks by Logan Armstrong"
 ---
 
 This is a list of special places to visit that we’ve discovered during our time in Barcelona. I’ve excluded any obvious touristic spots, since you will read about those in every guidebook and blog post. I try to keep this as up-to-date as possible, however, make sure to double-check that the place is still open. Enjoy your trip and drop me a line if you want to meet!

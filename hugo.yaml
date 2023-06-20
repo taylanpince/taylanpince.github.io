@@ -2,6 +2,7 @@ baseURL: 'https://kaizenmusings.com/'
 languageCode: 'en-us'
 title: "Kaizen Musings - Writings by Taylan Pince, Product and Engineering Leader"
 theme: 'PaperMod'
+copyright: "© Taylan Pince • "
 paginate: 5
 
 enableRobotsTXT: true
@@ -16,10 +17,6 @@ menu:
           name: Archives
           url: /archives/
           weight: 1
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 3
         - identifier: search
           name: Search
           url: /search/
@@ -31,7 +28,6 @@ menu:
 
 taxonomy:
     tag: tags
-    category: categories
 
 outputs:
     home:
@@ -47,7 +43,7 @@ params:
     images: ["avatar-wide.png"]
     label:
         text: "Kaizen Musings"
-        icon: "kaizen.svg"
+        iconSVG: '<svg width="44" height="20" viewBox="0 0 44 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40.1112 2.93021C38.2215 1.04183 35.7089 0 33.0387 0C30.3674 0 27.8553 1.04183 25.9656 2.93021L14.4486 14.4419C13.2615 15.628 11.6846 16.2792 10.0046 16.2792C8.32958 16.2792 6.75223 15.628 5.56562 14.437C4.37454 13.2558 3.72297 11.6748 3.72297 10C3.72297 8.32573 4.37454 6.74861 5.56562 5.55809C6.75223 4.37202 8.32958 3.72076 10.0046 3.72076C11.6846 3.72076 13.262 4.37153 14.4486 5.55809L17.1575 8.26626L19.6175 8.03826L19.7871 5.63838L17.0777 2.93021C15.1884 1.04183 12.6759 0 10.0046 0C7.33388 0 4.82082 1.04183 2.93157 2.93021C1.04231 4.8186 0 7.33 0 10C0 12.67 1.04231 15.1804 2.93157 17.0703C4.82082 18.9587 7.33338 20 10.0046 20C12.6759 20 15.1884 18.9582 17.0777 17.0703L28.5947 5.55809C29.7818 4.37202 31.3586 3.72076 33.0391 3.72076C34.7142 3.72076 36.292 4.37153 37.4781 5.55809C39.9297 8.00902 39.9297 11.991 37.4781 14.4419C36.2915 15.628 34.7142 16.2792 33.0391 16.2792C31.3586 16.2792 29.7818 15.628 28.5947 14.4419L25.4901 11.3382L25.3205 13.7381L22.8605 13.9661L22.8382 13.9438L25.9661 17.0703C27.8553 18.9587 30.3679 20 33.0391 20C35.7094 20 38.2219 18.9582 40.1117 17.0703C44.0102 13.1716 44.0102 6.82791 40.1112 2.93021Z" fill="currentColor"/></svg>'
         iconHeight: 20
 
     defaultTheme: auto
