@@ -1,0 +1,76 @@
+baseURL: 'https://taylanpince.github.io/'
+languageCode: 'en-us'
+title: 'Kaizen Musings'
+theme: 'PaperMod'
+paginate: 5
+
+enableRobotsTXT: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+menu:
+    main:
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 1
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 3
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 5
+        - identifier: about
+          name: About
+          url: /post/about/
+          weight: 10
+
+taxonomy:
+    tag: tags
+    category: categories
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    title: "Kaizen Musings - Writings by Taylan Pince"
+    description: "Articles on product management, software engineering, gaming and travel"
+    author: "Taylan Pince"
+    images: ["avatar-wide.png"]
+
+    defaultTheme: auto
+    disableThemeToggle: false
+    ShowCodeCopyButtons: true
+    ShowBreadCrumbs: false
+    ShowReadingTime: true
+    ShowShareButtons: false
+
+    profileMode:
+        enabled: true
+        title: "Kaizen Musings"
+        subtitle: >
+            Writings on [product management](tags/product-management), [software engineering](tags/software-engineering), 
+            [electronics](tags/electronics), [gaming](tags/gaming) and [travel](tags/travel) by Taylan Pince
+        imageUrl: "avatar-square.png"
+        imageTitle: "Kaizen Musings - Taylan Pince"
+        imageWidth: 160
+        imageHeight: 160
+    socialIcons:
+    - name: "twitter"
+      url: "https://twitter.com/taylanpince"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/taylan/"
+    - name: "github"
+      url: "https://github.com/taylanpince/"
+    - name: "CV"
+      url: "taylan_pince_resume_2023.pdf"
+    - name: "Email"
+      url: "mailto:taylanpince@gmail.com"
