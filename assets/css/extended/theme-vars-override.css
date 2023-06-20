@@ -19,3 +19,7 @@
 .dark {
     --theme: rgb(29, 30, 32);
 }
+
+.dark logo a img {
+    color: #fff;
+}
