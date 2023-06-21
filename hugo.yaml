@@ -17,6 +17,10 @@ menu:
           name: Archives
           url: /archives/
           weight: 1
+        - identifier: topics
+          name: Topics
+          url: /tags/
+          weight: 3
         - identifier: search
           name: Search
           url: /search/
