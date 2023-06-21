@@ -15,14 +15,14 @@ I am a naturally curious person, and I tend to deep dive into specific topics ov
 
 Recent deep dives include:
 - Industrial Revolution and Birth of Factories
-- 3D Printing and Robotics
-- DIY Electronics and Circuit Board Design
+- [3D Printing and Robotics](/tags/project-rover)
+- [DIY Electronics and Circuit Board Design](/tags/electronics)
 - Game Design
 - Japanese Culture and Kaizen Philosophy
 
 In addition to these, I regularly write about specific topics:
 - [Product Management](/tags/product-management)
-- [Gaming](/tags/gaming)
+- [Games](/tags/games)
 - [Travel](/tags/travel)
 - [Software Engineering](/tags/software-engineering)
 
