@@ -57,7 +57,7 @@ params:
         enabled: true
         title: "Kaizen Musings"
         subtitle: >
-            Writings on [product management](tags/product-management), [software engineering](tags/software-engineering), 
+            Writings on [product management](tags/product-management), [team leadership](tags/team-leadership), 
             [electronics](tags/electronics), [gaming](tags/gaming) and [travel](tags/travel) by Taylan Pince
         imageUrl: "avatar-square.png"
         imageTitle: "Kaizen Musings - Taylan Pince"
