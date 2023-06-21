@@ -58,7 +58,7 @@ params:
         title: "Kaizen Musings"
         subtitle: >
             Writings on [product management](tags/product-management), [team leadership](tags/team-leadership), 
-            [electronics](tags/electronics), [gaming](tags/gaming) and [travel](tags/travel) by Taylan Pince
+            [electronics](tags/electronics), [games](tags/games) and [travel](tags/travel) by Taylan Pince
         imageUrl: "avatar-square.png"
         imageTitle: "Kaizen Musings - Taylan Pince"
         imageWidth: 160
@@ -70,7 +70,7 @@ params:
       url: "https://www.linkedin.com/in/taylan/"
     - name: "github"
       url: "https://github.com/taylanpince/"
-    # - name: "CV"
-    #   url: "taylan_pince_resume_2023.pdf"
+    - name: "CV"
+      url: "files/taylan_pince_senior_product_leader_resume.pdf"
     - name: "Email"
       url: "mailto:taylanpince@gmail.com"
