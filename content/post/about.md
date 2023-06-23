@@ -9,7 +9,7 @@ cover:
 My name is Taylan Pince, and Kaizen Musings is my little corner of the internet. I tend to use this patch as a way to self-document my various interests, both personal and professional. It’s also a good excuse to write more, which I enjoy as a strategy for thought exploration and personal growth.
 
 ## Who Am I?
-I am a software engineer turned product manager and entrepreneur. I spent the last 20-odd years launching startups from the idea stage and getting them to market. I also launched and grew [a digital product agency](https://hipolabs.com). I enjoyed the journey and the battle scars that came with it. Most importantly, I got to meet and work with some wonderful people along the way.
+I am a software engineer turned product manager and entrepreneur. I spent the last 20-odd years building startups from the idea stage and getting them to market. I also launched and grew [a digital product agency](https://hipolabs.com) that built products for early-stage startups. I enjoyed the journey and the battle scars that came with it. Most importantly, I got to meet and work with some wonderful people along the way.
 
 I lived in 3 countries so far, and I moved between Europe and North America 4 times. I currently live in sunny Barcelona, Spain with my two daughters and lovely wife. This location appears to be permanent. For now.
 
@@ -20,8 +20,8 @@ Recent deep dives include:
 - Industrial Revolution and Birth of Factories
 - [3D Printing and Robotics](/tags/project-rover)
 - [DIY Electronics and Circuit Board Design](/tags/electronics)
-- Game Design
-- Japanese Culture and Kaizen Philosophy
+- [Game Design](/tags/games)
+- [Japanese Culture and Kaizen Philosophy](/post/product-management/japanese-work-philosophy/)
 
 In addition to these, I regularly write about specific topics:
 - [Product Management](/tags/product-management)
