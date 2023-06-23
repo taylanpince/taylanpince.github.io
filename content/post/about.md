@@ -2,6 +2,9 @@
 title: "About"
 date: 2022-07-03T20:34:43+01:00
 draft: false
+cover:
+    image: "covers/about.jpg"
+    alt: "Pince family in Portugal"
 ---
 My name is Taylan Pince, and Kaizen Musings is my little corner of the internet. I tend to use this patch as a way to self-document my various interests, both personal and professional. It’s also a good excuse to write more, which I enjoy as a strategy for thought exploration and personal growth.
 
