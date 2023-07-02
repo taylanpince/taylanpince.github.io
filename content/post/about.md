@@ -27,7 +27,7 @@ In addition to these, I regularly write about specific topics:
 - [Product Management](/tags/product-management)
 - [Games](/tags/games)
 - [Travel](/tags/travel)
-- [Software Engineering](/tags/software-engineering)
+- [Team Leadership](/tags/team-leadership)
 
 ## Speaking & Interviews
 I used to be afraid of public speaking. Over a decade ago, I took this fear head on and decided to challenge myself. I still get nervous, but I find it’s a good way to balance out my introvert nature. Here is an incomplete list of my past public appearances:
