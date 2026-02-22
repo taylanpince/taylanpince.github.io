@@ -2,7 +2,6 @@
 title: "Sicily Palermo Loop Itinerary (Palermo ↔ Trapani/Erice ↔ Marsala) — Apr 2–6"
 date: 2026-02-22T18:56:00+01:00
 draft: false
-tags: ["travel", "italy", "sicily"]
 robotsNoIndex: true
 sitemap:
   disable: true
@@ -24,25 +23,11 @@ This is a **Palermo → Trapani/Erice → Marsala loop** built around **history 
 
 ---
 
-## Photo previews
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Palermo_-_Cappella_Palatina_-_2025-09-24_14-49-26_001.jpg/960px-Palermo_-_Cappella_Palatina_-_2025-09-24_14-49-26_001.jpg" alt="Palermo – Cappella Palatina (Palatine Chapel, Norman Palace)" caption="Palermo — Cappella Palatina (Palatine Chapel, Norman Palace)" >}}
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Chiostro_cattedrale_di_Monreale_010.jpg" alt="Monreale – Cloister" caption="Monreale — Cathedral cloister (columns + mosaics)" >}}
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Segeste_Temple.jpg" alt="Segesta – Doric Temple" caption="Segesta — Doric Temple" >}}
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Trapani_-_Sicily.jpg" alt="Trapani – old town waterfront at sunset" caption="Trapani — old town waterfront (Torre di Ligny area)" >}}
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/3/38/Erice_Sicily_Italy_35.jpg" alt="Erice – view over the coast" caption="Erice — views over the coast" >}}
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Florio_winery_%284894806936%29.jpg" alt="Marsala – Florio winery" caption="Marsala — Florio (visual cue)" >}}
-
----
-
 ## Day-by-day itinerary
 
 ### Day 1 — Thu Apr 2: Arrive Palermo → Arab‑Norman “opening statement”
+
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Palermo_-_Cappella_Palatina_-_2025-09-24_14-49-26_001.jpg/960px-Palermo_-_Cappella_Palatina_-_2025-09-24_14-49-26_001.jpg" alt="Palermo – Cappella Palatina (Palatine Chapel, Norman Palace)" caption="Palermo — Cappella Palatina (Palatine Chapel, Norman Palace)" >}}
 
 **Drive time today (total):** PMO → Palermo **~45–50 min**
 
@@ -73,6 +58,8 @@ This is a **Palermo → Trapani/Erice → Marsala loop** built around **history 
 
 ### Day 2 — Fri Apr 3: Monreale mosaics + Palermo deep-cuts
 
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Chiostro_cattedrale_di_Monreale_010.jpg" alt="Monreale – Cloister" caption="Monreale — Cathedral cloister (columns + mosaics)" >}}
+
 **Drive time today (total):** Palermo ↔ Monreale **~60–80 min** (traffic/parking dependent)
 
 **Morning: Monreale (non-negotiable if you love art history)**
@@ -99,6 +86,8 @@ If you did Osteria dei Vespri on Day 1, do Ai Cascinari now (or vice versa).
 
 ### Day 3 — Sat Apr 4: Palermo → Segesta (ancient) → Trapani (base switch)
 
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Segeste_Temple.jpg" alt="Segesta – Doric Temple" caption="Segesta — Doric Temple" >}}
+
 **Drive time today (total):** **~1h50–2h10**
 - Palermo → Segesta: **~1h10–1h25**
 - Segesta → Trapani: **~40–55 min**
@@ -122,6 +111,10 @@ How to do it well:
 ---
 
 ### Day 4 — Sun Apr 5: Erice (medieval hill town) + Marsala (Florio wine + long lunch)
+
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/3/38/Erice_Sicily_Italy_35.jpg" alt="Erice – view over the coast" caption="Erice — views over the coast" >}}
+
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Florio_winery_%284894806936%29.jpg" alt="Marsala – Florio winery" caption="Marsala — Florio (visual cue)" >}}
 
 **Drive time today (total):** **~1h40–2h00**
 - Trapani ↔ Erice: **~40–60 min total**
@@ -151,6 +144,8 @@ Flexible. If lunch went big, go light.
 ---
 
 ### Day 5 — Mon Apr 6: Trapani → Palermo airport → fly home
+
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Trapani_-_Sicily.jpg" alt="Trapani – old town waterfront" caption="Trapani — old town waterfront" >}}
 
 **Drive time today (total):** Trapani → PMO **~1h15–1h35**
 
