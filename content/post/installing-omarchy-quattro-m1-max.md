@@ -5,6 +5,9 @@ draft: false
 slug: installing-omarchy-quattro-m1-max
 tags:
 - Technology
+cover:
+    image: "covers/omarchy4.jpg"
+    alt: "Omarchy Quattro desktop screenshot"
 ---
 
 I wanted to run Omarchy on an old 2021 MacBook Pro with an M1 Max chip.
