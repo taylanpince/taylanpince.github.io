@@ -1,0 +1,56 @@
+{{- define "main" }}
+
+<article class="post-single book-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+      {{- if .Draft }}<span class="entry-hint" title="Draft">[draft]</span>{{ end }}
+    </h1>
+  </header>
+
+  <div class="book-meta-card">
+    <div class="book-meta-cover">{{ partial "book_cover.html" (dict "page" . "width" 240) }}</div>
+    <dl class="book-meta-facts">
+      {{- with .Params.bookAuthor }}
+      <div><dt>Author</dt><dd>{{ . }}</dd></div>
+      {{- end }}
+      {{- with .Params.bookRating }}
+      <div><dt>Rating</dt><dd>{{ partial "book_rating.html" . }}</dd></div>
+      {{- end }}
+      {{- with .Params.bookDateRead }}
+      <div><dt>Read</dt><dd>{{ (time.AsTime .).Format "January 2006" }}</dd></div>
+      {{- end }}
+      {{- with .Params.bookYearPublished }}
+      <div><dt>Published</dt><dd>{{ . }}</dd></div>
+      {{- end }}
+      {{- with .Params.bookPages }}
+      <div><dt>Length</dt><dd>{{ . }} pages</dd></div>
+      {{- end }}
+      {{- with .Params.bookGoodreads }}
+      <div><dt>Goodreads</dt><dd><a href="{{ . }}" rel="noopener noreferrer nofollow" target="_blank">View</a></dd></div>
+      {{- end }}
+    </dl>
+  </div>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+  </footer>
+</article>
+
+{{- end }}{{/* end main */}}

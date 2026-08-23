@@ -1,0 +1,6 @@
+{{- $r := int (. | default 0) }}
+{{- if gt $r 0 }}
+<span class="book-rating" title="{{ $r }} out of 5" aria-label="Rated {{ $r }} out of 5">
+  {{- range seq 5 }}{{ if le . $r }}<span class="on">&#9733;</span>{{ else }}<span class="off">&#9734;</span>{{ end }}{{ end -}}
+</span>
+{{- end }}
