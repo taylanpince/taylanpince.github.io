@@ -2,7 +2,7 @@
 title: "The Loser"
 date: 2026-05-24T09:00:00+02:00
 draft: true
-slug: loser
+slug: the-loser
 tags:
 - Books
 bookAuthor: "Thomas Bernhard"
@@ -13,7 +13,7 @@ bookPages: 210
 bookISBN13: ""
 bookGoodreads: "https://www.goodreads.com/book/show/219056417"
 cover:
-    image: "covers/books/loser.jpg"
+    image: "covers/books/the-loser.jpg"
     alt: "Cover of The Loser"
     hidden: true
 ---

@@ -2,7 +2,7 @@
 title: "The Future of Truth"
 date: 2026-01-11T09:00:00+02:00
 draft: true
-slug: future-of-truth
+slug: the-future-of-truth
 tags:
 - Books
 bookAuthor: "Werner Herzog"
@@ -13,7 +13,7 @@ bookPages: 106
 bookISBN13: "9781529939514"
 bookGoodreads: "https://www.goodreads.com/book/show/221443624"
 cover:
-    image: "covers/books/future-of-truth.jpg"
+    image: "covers/books/the-future-of-truth.jpg"
     alt: "Cover of The Future of Truth"
     hidden: true
 ---

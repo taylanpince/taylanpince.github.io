@@ -2,7 +2,7 @@
 title: "The Emigrants"
 date: 2026-05-24T09:00:00+02:00
 draft: true
-slug: emigrants
+slug: the-emigrants
 tags:
 - Books
 bookAuthor: "W.G. Sebald"
@@ -13,7 +13,7 @@ bookPages: 237
 bookISBN13: "9780099448884"
 bookGoodreads: "https://www.goodreads.com/book/show/76507"
 cover:
-    image: "covers/books/emigrants.jpg"
+    image: "covers/books/the-emigrants.jpg"
     alt: "Cover of The Emigrants"
     hidden: true
 ---

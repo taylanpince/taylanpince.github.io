@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BOOKS = ROOT / "content" / "books"
 COVERS = ROOT / "assets" / "covers" / "books"
+MIN_WIDTH = 300  # below this a cover looks soft on the 220px grid at 2x
 UA = {"User-Agent": "kaizenmusings-cover-fetch/1.0 (+https://kaizenmusings.com)"}
 
 
@@ -57,12 +58,21 @@ def openlibrary_search(title, author):
         docs = json.loads(raw).get("docs") or []
     except json.JSONDecodeError:
         return None
+    # Search results are ordered by relevance, not by cover quality: the top hit
+    # for "Brooklyn" is a 140px scan while the second is 324px. Take the widest.
+    best, best_w = None, 0
     for doc in docs:
-        if doc.get("cover_i"):
-            data = get(f"https://covers.openlibrary.org/b/id/{doc['cover_i']}-L.jpg?default=false")
-            if data and len(data) > 3000:
-                return data
-    return None
+        if not doc.get("cover_i"):
+            continue
+        data = get(f"https://covers.openlibrary.org/b/id/{doc['cover_i']}-L.jpg?default=false")
+        if not data or len(data) <= 3000:
+            continue
+        w, _ = jpeg_size(data)
+        if w > best_w:
+            best, best_w = data, w
+        if best_w >= MIN_WIDTH:
+            break
+    return best
 
 
 def googlebooks(query):
@@ -116,18 +126,32 @@ def main():
             continue
         title = fm.get("title", "")
         author = fm.get("bookAuthor", "")
-        data = None
+
+        # Try every source and keep the widest result rather than the first one.
+        # A source can answer with a tiny thumbnail (Google Books often does),
+        # which is worse than a larger cover another source would have given.
+        sources = []
         for isbn in [i for i in (fm.get("bookISBN13"), fm.get("bookISBN")) if i]:
-            data = openlibrary(isbn) or googlebooks(f"isbn:{isbn}")
-            if data:
+            sources.append(lambda i=isbn: openlibrary(i))
+            sources.append(lambda i=isbn: googlebooks(f"isbn:{i}"))
+        if title:
+            sources.append(lambda: openlibrary_search(title, author))
+            sources.append(lambda: googlebooks(f'intitle:"{title}" inauthor:"{author}"'))
+
+        data, best_w = None, 0
+        for fetch in sources:
+            candidate = fetch()
+            if not candidate:
+                continue
+            w, _ = jpeg_size(candidate)
+            if w > best_w:
+                data, best_w = candidate, w
+            if best_w >= MIN_WIDTH:
                 break
-        if not data and title:
-            data = (openlibrary_search(title, author)
-                    or googlebooks(f'intitle:"{title}" inauthor:"{author}"'))
         if data:
             dest.write_bytes(data)
             w, h = jpeg_size(data)
-            flag = "  <- LOW RES, replace manually" if w and w < 300 else ""
+            flag = "  <- LOW RES, replace manually" if w and w < MIN_WIDTH else ""
             print(f"  ok    {slug}  ({len(data) // 1024} KB, {w}x{h}){flag}")
         else:
             missing.append((slug, fm.get("title", ""), fm.get("bookAuthor", "")))
