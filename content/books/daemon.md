@@ -1,7 +1,7 @@
 ---
 title: "Daemon"
 date: 2026-07-27T09:00:00+02:00
-draft: true
+draft: false
 slug: daemon
 tags:
 - Books

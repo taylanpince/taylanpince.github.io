@@ -1,7 +1,7 @@
 ---
 title: "The Reverse Centaur's Guide to Life After AI"
 date: 2026-07-28T09:00:00+02:00
-draft: true
+draft: false
 slug: reverse-centaurs-guide-to-life-after-ai
 tags:
 - Books

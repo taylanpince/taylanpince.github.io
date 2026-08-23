@@ -1,7 +1,7 @@
 ---
 title: "Brooklyn"
 date: 2026-03-25T09:00:00+02:00
-draft: true
+draft: false
 slug: brooklyn
 tags:
 - Books

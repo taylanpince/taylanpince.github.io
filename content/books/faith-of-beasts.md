@@ -1,7 +1,7 @@
 ---
 title: "The Faith of Beasts"
 date: 2026-04-21T09:00:00+02:00
-draft: true
+draft: false
 slug: faith-of-beasts
 tags:
 - Books

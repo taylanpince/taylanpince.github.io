@@ -1,7 +1,7 @@
 ---
 title: "Contrapposto"
 date: 2026-07-24T09:00:00+02:00
-draft: true
+draft: false
 slug: contrapposto
 tags:
 - Books
