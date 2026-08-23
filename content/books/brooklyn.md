@@ -18,14 +18,31 @@ cover:
     hidden: true
 ---
 
-<!-- TODO: one line on what this book actually is. -->
+I expected more from this one, and I want to be careful about how I say that,
+because the writing is excellent throughout.
 
-## Highlights from the book
+I love Tóibín. *The Magician* is one of my favourite books. *Brooklyn* is the
+story of Eilis Lacey, a young Irish woman who emigrates to New York in the 1950s,
+and her inner life is imagined and rendered about as well as I have seen it done.
+The story just flows.
 
-<!-- One highlight in the Kindle archive, from p.69: Eilis in Brooklyn, "a ghost
-     in this room," where nothing is part of her, while the rooms back on Friary
-     Street are the only ones she is really present in. -->
+My problem is that it stays almost entirely inside her. I kept waiting for it to
+open out into the historical context around her, and it never really does. There
+is also more domestic drama than I personally want from a novel. Both of those
+are preferences rather than faults.
 
-## Worth your time if
+The part that got me is the loneliness of arriving somewhere:
 
-<!-- TODO -->
+> She was nobody here. It was not just that she had no friends and family; it was
+> rather that she was a ghost in this room, in the streets on the way to work, on
+> the shop floor. Nothing meant anything.
+
+I moved to Toronto from Istanbul when I was eighteen, and parts of this brought
+that back more sharply than I expected. The specific thing Tóibín catches is that
+the rooms you left behind are the ones where you were solid and present, and the
+new ones are not part of you yet. That is exactly right, and it takes longer to
+fix than anyone tells you.
+
+---
+
+All quotes are from *Brooklyn* by Colm Tóibín.

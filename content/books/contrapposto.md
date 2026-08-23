@@ -18,14 +18,20 @@ cover:
     hidden: true
 ---
 
-<!-- TODO: one line on what this book actually is. -->
+I enjoy most of what Dave Eggers writes, so I was always going to read this one.
+It still surprised me. It feels more mature and more grounded than his other
+books, and I say that as someone who liked the other books.
 
-## What stuck
+It follows two people who love art, their stories winding around each other from
+their teenage years all the way into old age. Along the way it makes some genuinely
+interesting observations about the art world, about what it actually means to be
+a "successful" artist, and about how people who are real artists look at things
+differently from the rest of us.
 
--
--
--
+Mostly though, it is just pure, good writing. The book flows. I don't have a more
+sophisticated way to put that. I picked it up and it carried me along and I
+finished it and wanted more.
 
-## Worth your time if
-
-<!-- TODO -->
+The title is an art term, for the pose where a figure rests its weight on one leg
+so the whole body falls into an asymmetry. I thought about that quite a bit while
+reading.
