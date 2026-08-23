@@ -33,8 +33,8 @@ The idea I keep coming back to is what Doctorow calls automation blindness:
 > the ability to spot when it's not fine
 
 This isn't about diligence, it is about what months of near-unbroken correctness
-do to a person's attention. It is worth sitting with, because a great many of the
-current proposals for keeping humans in the loop on AI systems are describing
+do to a person's attention. This is worth reflecting on, because a great many of
+the current proposals for keeping humans in the loop on AI systems are describing
 precisely this job.
 
 There is an argument about science fiction that I thought was the cleanest thing
