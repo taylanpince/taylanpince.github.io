@@ -1,0 +1,27 @@
+{{- /* Renders a book cover at a given width, or a titled placeholder if missing.
+       Never upscales: the 2x candidate is emitted only if the source is big enough. */ -}}
+{{- $page := .page }}
+{{- $width := int (.width | default 300) }}
+{{- $cover := "" }}
+{{- with $page.Params.cover.image }}
+  {{- $cover = (resources.ByType "image").GetMatch (printf "*%s*" .) }}
+{{- end }}
+{{- $alt := $page.Params.cover.alt | default (printf "Cover of %s" $page.Title) }}
+{{- if $cover }}
+  {{- $w1 := cond (lt $cover.Width $width) $cover.Width $width }}
+  {{- $img := $cover.Resize (printf "%dx webp q85" $w1) }}
+  {{- $srcset := printf "%s 1x" $img.RelPermalink }}
+  {{- if ge $cover.Width (mul $w1 2) }}
+    {{- $img2x := $cover.Resize (printf "%dx webp q85" (mul $w1 2)) }}
+    {{- $srcset = printf "%s, %s 2x" $srcset $img2x.RelPermalink }}
+  {{- end }}
+  <img class="book-cover-img" loading="lazy"
+       src="{{ $img.RelPermalink }}"
+       srcset="{{ $srcset }}"
+       width="{{ $img.Width }}" height="{{ $img.Height }}"
+       alt="{{ $alt }}">
+{{- else }}
+  <span class="book-cover-img book-cover-placeholder" aria-label="{{ $alt }}">
+    <span>{{ $page.Title }}</span>
+  </span>
+{{- end }}

@@ -1,0 +1,6 @@
+<a class="book-card" href="{{ .RelPermalink }}">
+  <span class="book-card-cover">{{ partial "book_cover.html" (dict "page" . "width" 220) }}</span>
+  <span class="book-card-title">{{ .Title }}</span>
+  {{- with .Params.bookAuthor }}<span class="book-card-author">{{ . }}</span>{{ end }}
+  {{ partial "book_rating.html" .Params.bookRating }}
+</a>
