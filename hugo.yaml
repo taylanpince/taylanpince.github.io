@@ -70,8 +70,8 @@ params:
         title: "Kaizen Musings"
         subtitle: >
             Writings on engineering and [team leadership](tags/team-leadership), [product](tags/product-management),
-            [electronics](tags/electronics), [games](tags/games) and [travel](tags/travel) by Taylan Pince —
-            SVP Engineering at Polygon
+            [electronics](tags/electronics), [games](tags/games), [books](books) and [travel](tags/travel)
+            by Taylan Pince
         imageUrl: "avatar-square.png"
         imageTitle: "Kaizen Musings - Taylan Pince"
         imageWidth: 160
