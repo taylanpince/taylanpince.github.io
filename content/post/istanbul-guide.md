@@ -10,10 +10,6 @@ cover:
     alt: "Galata Tower overlooking the Bosphorus with a ferry"
 ---
 
-![Istanbul waterfront](/images/istanbul-guide/istanbul-hero.jpg)
-
-*Photo by [Cemrecan Yurtman](https://unsplash.com/photos/galata-tower-overlooking-the-bosphorus-with-a-ferry-IVjxZPxnrUc) on Unsplash.*
-
 This is a list of some of my favourite places in Istanbul, my hometown. I've included a few obvious touristic spots because some of them are too good to skip, but most of this is what I recommend when friends ask me where to go. Istanbul changes quickly, so make sure to double-check that places are open and book ahead where needed.
 
 ## Eating
