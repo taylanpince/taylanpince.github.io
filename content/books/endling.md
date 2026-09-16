@@ -1,7 +1,7 @@
 ---
 title: "Endling"
 date: 2026-09-16T09:00:00+02:00
-draft: true
+draft: false
 slug: endling
 tags:
 - Books
@@ -18,13 +18,19 @@ cover:
     hidden: true
 ---
 
-Just finished this one. Endling is set in Ukraine in 2022 and mostly follows Yeva, a biologist who lives out of her mobile lab and spends her days trying to breed rare snails back from extinction while the invasion closes in around her.
+Endling is set in Ukraine in 2022 and follows three main characters, Yeva,
+Nastia and Sol, on different arcs that intersect as the invasion closes in.
+Yeva is a biologist who lives out of her mobile lab, trying to breed rare
+snails back from extinction.
 
 I enjoyed it. The story and the characters are well put together, and the book captures the absurdity of the war and the many eccentricities of Eastern European culture succinctly.
 
 What didn't work for me is Reva breaking the fourth wall and inserting herself
 into the story. The parts that stop the main narrative to insert absurd
-dialogues didn't add much for me and kept pulling me out of the story.
+dialogues didn't add much for me and kept pulling me out of the story. The male
+characters didn't work either. The women in the book have a lot of depth, while
+the men are extremely simplified caricatures. That might be by design, but I
+found it very off putting.
 
 The story and the characters carry the book, and the fourth-wall interruptions
-are what kept it from being a four.
+and the flat male characters are what kept it from being a four.
