@@ -92,6 +92,20 @@
     color: var(--border);
 }
 
+/* Half-star: an off star with an on star clipped to the left half on top. */
+.book-rating .half {
+    position: relative;
+    display: inline-block;
+}
+
+.book-rating .halffill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
 /* ---- Single book ---- */
 
 .book-meta-card {
