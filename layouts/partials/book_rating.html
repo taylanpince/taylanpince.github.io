@@ -1,6 +1,13 @@
-{{- $r := int (. | default 0) }}
-{{- if gt $r 0 }}
+{{- $r := float (. | default 0) }}
+{{- if gt $r 0.0 }}
 <span class="book-rating" title="{{ $r }} out of 5" aria-label="Rated {{ $r }} out of 5">
-  {{- range seq 5 }}{{ if le . $r }}<span class="on">&#9733;</span>{{ else }}<span class="off">&#9734;</span>{{ end }}{{ end -}}
+  {{- $full := math.Floor $r }}
+  {{- $half := gt (sub $r $full) 0.0 }}
+  {{- range seq 5 }}{{ $i := float . }}
+    {{- if le $i $full }}<span class="on">&#9733;</span>
+    {{- else if and $half (eq $i (add $full 1.0)) }}<span class="half"><span class="off">&#9733;</span><span class="on halffill">&#9733;</span></span>
+    {{- else }}<span class="off">&#9733;</span>
+    {{- end }}
+  {{- end -}}
 </span>
 {{- end }}
