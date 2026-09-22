@@ -1,7 +1,7 @@
 ---
 title: "Sunward"
 date: 2026-09-21T21:55:00+02:00
-draft: true
+draft: false
 slug: sunward
 tags:
 - Books
@@ -19,8 +19,8 @@ cover:
 ---
 
 Sunward is William Alexander's first adult novel, set in a far future solar
-system where private messages get carried between planets by planetary
-couriers. Tova Lir is one of them, and she takes on the job of mentoring
+system where private messages get carried between planets by couriers. Tova
+Lir is one of them, and she takes on the job of mentoring
 juvenile AI, essentially becoming a foster parent to adolescent androids.
 
 It's a light read, I enjoyed the premise and the playful tone of the book.
