@@ -23,15 +23,15 @@
 <div class="post-content">{{ . }}</div>
 {{- end }}
 
-{{- $dated := where .RegularPages "Params.movieDateWatched" "!=" nil }}
-{{- $undated := where .RegularPages "Params.movieDateWatched" nil }}
+{{- $dated := where .RegularPages "Params.filmDateWatched" "!=" nil }}
+{{- $undated := where .RegularPages "Params.filmDateWatched" nil }}
 
-{{- range $dated.GroupByParamDate "movieDateWatched" "2006" }}
+{{- range $dated.GroupByParamDate "filmDateWatched" "2006" }}
 <section class="book-year">
   <h2 class="book-year-heading">{{ .Key }}</h2>
   <div class="book-grid">
-    {{- range (.Pages.ByParam "movieDateWatched").Reverse }}
-    {{- partial "movie_entry.html" . }}
+    {{- range (.Pages.ByParam "filmDateWatched").Reverse }}
+    {{- partial "film_entry.html" . }}
     {{- end }}
   </div>
 </section>
@@ -41,7 +41,7 @@
 <section class="book-year">
   <div class="book-grid">
     {{- range . }}
-    {{- partial "movie_entry.html" . }}
+    {{- partial "film_entry.html" . }}
     {{- end }}
   </div>
 </section>

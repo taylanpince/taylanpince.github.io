@@ -96,22 +96,22 @@ but badly for "The Loser". Check the result; `the-loser` was fixed by hand.
 `layouts/partials/book_cover.html` falls back to a titled placeholder when the
 cover file is missing, and never emits a 2x srcset it would have to upscale to.
 
-## Cinema section
+## Films section
 
-An exact structural mirror of Books for movie notes (`content/cinema/`,
-`layouts/cinema/`, `archetypes/cinema.md`). Same card grid, same CSS (reuses the
+An exact structural mirror of Books for film notes (`content/films/`,
+`layouts/films/`, `archetypes/films.md`). Same card grid, same CSS (reuses the
 `.book-*` classes from `assets/css/extended/books.css`, no separate stylesheet).
-Posters live in `assets/covers/cinema/` and are resolved via
-`layouts/partials/movie_cover.html`.
+Posters live in `assets/covers/films/` and are resolved via
+`layouts/partials/film_cover.html`.
 
-Front matter uses flat `movie*` fields. **Do not use `author`** here either —
-same PaperMod conflict. Fields: `movieDirector`, `movieRating` (reuses
-`book_rating.html`, half-stars supported), `movieDateWatched` (drives the
-year-grouped grid), `movieYearReleased`, `movieRuntime` (minutes),
-`movieIMDb`. Tags use `Cinema`, not `Books`.
+Front matter uses flat `film*` fields. **Do not use `author`** here either —
+same PaperMod conflict. Fields: `filmDirector`, `filmRating` (reuses
+`book_rating.html`, half-stars supported), `filmDateWatched` (drives the
+year-grouped grid), `filmYearReleased`, `filmRuntime` (minutes),
+`filmIMDb`. Tags use `Films`, not `Books`.
 
-`mainSections` in `hugo.yaml` is `[post, books, cinema]`; removing `cinema`
-silently drops movie notes from Archives and the site RSS, same trap as books.
+`mainSections` in `hugo.yaml` is `[post, books, films]`; removing `films`
+silently drops film notes from Archives and the site RSS, same trap as books.
 
 ## Goodreads and Kindle data
 

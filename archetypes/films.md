@@ -4,20 +4,20 @@ date: {{ .Date }}
 draft: true
 slug: {{ .File.ContentBaseName }}
 tags:
-- Cinema
-movieDirector: ""
-movieRating: 0
-movieDateWatched:
-movieYearReleased:
-movieRuntime:
-movieIMDb: ""
+- Films
+filmDirector: ""
+filmRating: 0
+filmDateWatched:
+filmYearReleased:
+filmRuntime:
+filmIMDb: ""
 cover:
-    image: "covers/cinema/{{ .File.ContentBaseName }}.jpg"
+    image: "covers/films/{{ .File.ContentBaseName }}.jpg"
     alt: "Poster for "
     hidden: true
 ---
 
-<!-- One line: what this movie actually is. -->
+<!-- One line: what this film actually is. -->
 
 ## What stuck
 

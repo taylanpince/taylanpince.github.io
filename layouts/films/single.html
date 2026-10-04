@@ -9,24 +9,24 @@
   </header>
 
   <div class="book-meta-card">
-    <div class="book-meta-cover">{{ partial "movie_cover.html" (dict "page" . "width" 240) }}</div>
+    <div class="book-meta-cover">{{ partial "film_cover.html" (dict "page" . "width" 240) }}</div>
     <dl class="book-meta-facts">
-      {{- with .Params.movieDirector }}
+      {{- with .Params.filmDirector }}
       <div><dt>Director</dt><dd>{{ . }}</dd></div>
       {{- end }}
-      {{- with .Params.movieRating }}
+      {{- with .Params.filmRating }}
       <div><dt>Rating</dt><dd>{{ partial "book_rating.html" . }}</dd></div>
       {{- end }}
-      {{- with .Params.movieDateWatched }}
+      {{- with .Params.filmDateWatched }}
       <div><dt>Watched</dt><dd>{{ (time.AsTime .).Format "January 2006" }}</dd></div>
       {{- end }}
-      {{- with .Params.movieYearReleased }}
+      {{- with .Params.filmYearReleased }}
       <div><dt>Released</dt><dd>{{ . }}</dd></div>
       {{- end }}
-      {{- with .Params.movieRuntime }}
+      {{- with .Params.filmRuntime }}
       <div><dt>Length</dt><dd>{{ . }} minutes</dd></div>
       {{- end }}
-      {{- with .Params.movieImdb }}
+      {{- with .Params.filmIMDb }}
       <div><dt>IMDb</dt><dd><a href="{{ . }}" rel="noopener noreferrer nofollow" target="_blank">View</a></dd></div>
       {{- end }}
     </dl>
