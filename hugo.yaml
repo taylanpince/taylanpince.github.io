@@ -22,14 +22,18 @@ menu:
           name: Books
           url: /books/
           weight: 3
+        - identifier: films
+          name: Films
+          url: /films/
+          weight: 4
         - identifier: topics
           name: Topics
           url: /tags/
-          weight: 4
+          weight: 5
         - identifier: search
           name: Search
           url: /search/
-          weight: 5
+          weight: 6
         - identifier: about
           name: About
           url: /post/about/
@@ -49,6 +53,7 @@ params:
     mainSections:
         - post
         - books
+        - films
     title: "Kaizen Musings"
     description: "Notes on engineering leadership, scaling teams, product, software, gaming and travel by Taylan Pince, SVP Engineering at Polygon"
     author: "Taylan Pince"
