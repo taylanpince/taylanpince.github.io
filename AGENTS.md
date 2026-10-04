@@ -96,6 +96,23 @@ but badly for "The Loser". Check the result; `the-loser` was fixed by hand.
 `layouts/partials/book_cover.html` falls back to a titled placeholder when the
 cover file is missing, and never emits a 2x srcset it would have to upscale to.
 
+## Cinema section
+
+An exact structural mirror of Books for movie notes (`content/cinema/`,
+`layouts/cinema/`, `archetypes/cinema.md`). Same card grid, same CSS (reuses the
+`.book-*` classes from `assets/css/extended/books.css`, no separate stylesheet).
+Posters live in `assets/covers/cinema/` and are resolved via
+`layouts/partials/movie_cover.html`.
+
+Front matter uses flat `movie*` fields. **Do not use `author`** here either —
+same PaperMod conflict. Fields: `movieDirector`, `movieRating` (reuses
+`book_rating.html`, half-stars supported), `movieDateWatched` (drives the
+year-grouped grid), `movieYearReleased`, `movieRuntime` (minutes),
+`movieIMDb`. Tags use `Cinema`, not `Books`.
+
+`mainSections` in `hugo.yaml` is `[post, books, cinema]`; removing `cinema`
+silently drops movie notes from Archives and the site RSS, same trap as books.
+
 ## Goodreads and Kindle data
 
 **`Date Read` is empty for 127 of 221 read books.** `import_goodreads.py` filters
