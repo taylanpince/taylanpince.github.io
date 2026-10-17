@@ -1,7 +1,6 @@
 ---
 title: "Digger"
 date: 2026-10-17T23:05:00+02:00
-draft: true
 slug: digger
 tags:
 - Films
