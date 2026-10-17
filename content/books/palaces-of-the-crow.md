@@ -6,7 +6,7 @@ slug: palaces-of-the-crow
 tags:
 - Books
 bookAuthor: "Ray Nayler"
-bookRating: 3.5
+bookRating: 4
 bookDateRead: 2026-10-17
 bookYearPublished: 2026
 bookPages: 384
