@@ -1,6 +1,6 @@
 baseURL: 'https://kaizenmusings.com/'
 languageCode: 'en-us'
-title: "Kaizen Musings - Writings by Taylan Pince, Engineering and Product Leader"
+title: "Kaizen Musings - Writings by Taylan Pince, Digital Strategy and Product Leader"
 theme: 'PaperMod'
 copyright: "© Taylan Pince"
 pagination:
@@ -55,7 +55,7 @@ params:
         - books
         - films
     title: "Kaizen Musings"
-    description: "Notes on engineering leadership, scaling teams, product, software, gaming and travel by Taylan Pince, SVP Engineering at Polygon"
+    description: "Notes on digital strategy, product, team leadership, software, gaming and travel by Taylan Pince, Digital Strategy and Product Leader"
     author: "Taylan Pince"
     images: ["avatar-wide.png"]
     label:
@@ -74,7 +74,7 @@ params:
         enabled: true
         title: "Kaizen Musings"
         subtitle: >
-            Writings on engineering and [team leadership](tags/team-leadership), [product](tags/product-management),
+            Writings on [product](tags/product-management), [team leadership](tags/team-leadership),
             [electronics](tags/electronics), [games](tags/games), [books](books) and [travel](tags/travel)
             by Taylan Pince
         imageUrl: "avatar-square.png"
@@ -89,6 +89,6 @@ params:
     - name: "github"
       url: "https://github.com/taylanpince/"
     - name: "CV"
-      url: "files/taylan_pince_engineering_leader_resume.pdf"
+      url: "files/taylan_pince_digital_strategy_product_leader_resume.pdf"
     - name: "Email"
       url: "mailto:taylanpince@gmail.com"

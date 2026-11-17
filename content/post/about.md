@@ -9,20 +9,14 @@ cover:
 My name is Taylan Pince, and Kaizen Musings is my little corner of the internet. I tend to use this patch as a way to self-document my various interests, both personal and professional. It’s also a good excuse to write more, which I enjoy as a strategy for thought exploration and personal growth.
 
 ## Who Am I?
-I am a software engineer who spent the last 25-odd years building products and, increasingly, the engineering organizations that ship them. I started out writing code, spent a stretch of my career on the product side, and these days I lead engineering at scale.
+I’m a digital strategy and product leader, and I’ve spent the last 20-odd years building digital products. I started out as a software developer, and my background spans product strategy, user experience, product design and cross-functional leadership. I enjoy translating complex technical systems into clear digital experiences, and getting product, design, engineering and go-to-market teams pulling in the same direction.
 
-I am currently **SVP Engineering at Polygon**, where I am responsible for the Wallet, Agglayer and CDK teams.
-
-I joined Polygon through the acquisition of **Sequence** in February 2026. I had been Sequence’s **CTO** since November 2023, leading both the engineering and product organizations. During that time we launched Sequence Embedded Wallets and Trails, and I focused a lot of energy on raising the security and operational efficiency of the engineering group as a whole.
-
-Before Sequence, I was **CEO at Pera Wallet** from January 2022 to August 2023. Earlier in my career I launched and grew [a digital product agency](https://hipolabs.com) that built products for early-stage startups, and I spent many years taking startups from the idea stage to market. I enjoyed the journey and the battle scars that came with it. Most importantly, I got to meet and work with some wonderful people along the way.
+I co-founded and grew [a digital product agency](https://hipolabs.com) that built products for early-stage startups, scaling it to 65 people across 12 time zones. After that, I led product and technology as **Chief Technical and Product Officer** at **Avocare**, a digital clinic communication platform, and then at **Unwrapit**, a waste-free digital gifting platform. I enjoyed the journey and the battle scars that came with it. Most importantly, I got to meet and work with some wonderful people along the way.
 
 I lived in 3 countries so far, and I moved between Europe and North America 4 times. I currently live in sunny Barcelona, Spain with my two daughters and lovely wife. This location appears to be permanent. For now.
 
 ## Writing
 I am a naturally curious person, and I tend to deep dive into specific topics over different periods of my life. I try to document these immersions and summarize my learnings as best as I can, mostly for my future self.
-
-These days most of my professional thinking is about engineering leadership: how to structure teams so they can move fast without breaking things that matter, how to build a security and quality culture that doesn’t rely on heroics, and how to keep engineering and product genuinely aligned rather than merely coordinated.
 
 Recent deep dives include:
 - Industrial Revolution and Birth of Factories
@@ -32,7 +26,6 @@ Recent deep dives include:
 - [Japanese Culture and Kaizen Philosophy](/post/product-management/japanese-work-philosophy/)
 
 In addition to these, I regularly write about specific topics:
-- Engineering leadership and scaling teams
 - [Team Leadership](/tags/team-leadership)
 - [Product Management](/tags/product-management)
 - [Games](/tags/games)
